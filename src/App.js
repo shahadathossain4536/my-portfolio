@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import About from "./Pages/Home/About";
 import Projects from "./Pages/Home/Projects";
 import ContactFrom from "./Pages/Home/ContactFrom";
+import Footer from "./Pages/Home/Footer";
 
 function App() {
   useEffect(() => {
@@ -19,6 +20,7 @@ function App() {
         <About></About>
         <Projects></Projects>
         <ContactFrom></ContactFrom>
+        <Footer></Footer>
       </Navbar>
     </div>
   );

@@ -8,7 +8,9 @@ const Navbar = ({ children }) => {
         <a className="rounded-lg">Home</a>
       </li>
       <li>
-        <a className="rounded-lg">About</a>
+        <a className="rounded-lg" href="#about">
+          About
+        </a>
       </li>
       <li>
         <a className="rounded-lg">Portfolio</a>
@@ -32,7 +34,7 @@ const Navbar = ({ children }) => {
       <div class="drawer-content flex flex-col">
         {/* <!-- Navbar --> */}
         <div class="w-full navbar">
-          <div class="flex-1 px-2 mx-2">Shahadat Hossain</div>
+          <div class="flex-1 px-2 mx-2 ">Shahadat Hossain</div>
           <div class="flex-none hidden lg:block">
             <ul class="menu menu-horizontal">
               {/* <!-- Navbar menu content here --> */}

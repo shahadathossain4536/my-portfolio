@@ -1,5 +1,6 @@
 import React from "react";
-import warehousemanagement from "../../assets/project/warehouse-management.png";
+import warehouseManagement from "../../assets/project/warehouse-management.png";
+import TheFinancial360 from "../../assets/project/The-Financial-360.png";
 import cryptoComputer from "../../assets/project/Crypto-computer.png";
 
 const Projects = () => {
@@ -9,7 +10,7 @@ const Projects = () => {
       <div className="flex justify-evenly">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
           {/* Crypto Computer */}
-          <div class="card w-96 bg-base-00 shadow-xl">
+          <div class="card w-80 lg:w-96 bg-base-00 shadow-xl">
             <figure>
               <img src={cryptoComputer} alt="Shoes" />
             </figure>
@@ -22,18 +23,33 @@ const Projects = () => {
                 add/delete product, make another admin and manage orders.
               </p>
               <div class="flex justify-evenly mt-8">
-                <button className="btn btn-xs">Live Site</button>
-                <button className="btn btn-xs">Server GitHub</button>
-                <button className="btn btn-xs">Client GitHub</button>
+                <a
+                  href="https://manufacturer-website-client.web.app"
+                  target="_blank"
+                >
+                  <button className="btn btn-xs">Live Site</button>
+                </a>
+                <a
+                  href="https://github.com/shahadathossain4536/manufacturer-website-server-side"
+                  target="_blank"
+                >
+                  <button className="btn btn-xs">Server GitHub</button>
+                </a>
+                <a
+                  href="https://github.com/shahadathossain4536/manufacturer-website-client-side"
+                  target="_blank"
+                >
+                  <button className="btn btn-xs">Client GitHub</button>
+                </a>
               </div>
             </div>
           </div>
           {/* Crypto Computer */}
 
           {/* Buraq Bike Warehouse */}
-          <div class="card w-96 bg-base-100 shadow-xl">
+          <div class="card w-80 lg:w-96 bg-base-100 shadow-xl">
             <figure>
-              <img className="w-1/6" src={warehousemanagement} alt="Shoes" />
+              <img className="" src={warehouseManagement} alt="Shoes" />
             </figure>
             <div class="card-body">
               <h2 class="card-title">Buraq Bike Warehouse </h2>
@@ -44,18 +60,33 @@ const Projects = () => {
                 add/delete product, make another admin and manage orders.
               </p>
               <div class="flex justify-evenly mt-8">
-                <button className="btn btn-xs">Live Site</button>
-                <button className="btn btn-xs">Server GitHub</button>
-                <button className="btn btn-xs">Client GitHub</button>
+                <a
+                  href="https://warehouse-management-bc46b.web.app"
+                  target="_blank"
+                >
+                  <button className="btn btn-xs">Live Site</button>
+                </a>
+                <a
+                  href="https://github.com/shahadathossain4536/warehouse-management-server-side"
+                  target="_blank"
+                >
+                  <button className="btn btn-xs">Server GitHub</button>
+                </a>
+                <a
+                  href="https://github.com/shahadathossain4536/warehouse-management-client-side"
+                  target="_blank"
+                >
+                  <button className="btn btn-xs">Client GitHub</button>
+                </a>
               </div>
             </div>
           </div>
           {/* Buraq Bike Warehouse */}
 
           {/* The Financial 360  */}
-          <div class="card w-96 bg-base-100 shadow-xl">
+          <div class="card w-80 lg:w-96 bg-base-100 shadow-xl">
             <figure>
-              <img className="w-1/6" src={warehousemanagement} alt="Shoes" />
+              <img className="" src={TheFinancial360} alt="Shoes" />
             </figure>
             <div class="card-body">
               <h2 class="card-title">The Financial 360 </h2>
@@ -66,9 +97,15 @@ const Projects = () => {
                 add/delete product, make another admin and manage orders.
               </p>
               <div class="flex justify-evenly mt-8">
-                <button className="btn btn-xs">Live Site</button>
-                <button className="btn btn-xs">Server GitHub</button>
-                <button className="btn btn-xs">Client GitHub</button>
+                <a href="https://assignment-10-1507a.web.app" target="_blank">
+                  <button className="btn btn-xs">Live Site</button>
+                </a>
+                <a
+                  href="https://github.com/shahadathossain4536/independent-service-provider"
+                  target="_blank"
+                >
+                  <button className="btn btn-xs">Client GitHub</button>
+                </a>
               </div>
             </div>
           </div>

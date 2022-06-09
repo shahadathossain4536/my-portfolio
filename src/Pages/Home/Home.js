@@ -4,7 +4,7 @@ import resume from "../../assets/shahadat-hossain-resume-fornt-end-web-developer
 
 const Home = () => {
   return (
-    <div className="lg:flex justify-between items-center ">
+    <div className="lg:flex justify-around items-center ">
       <div>
         <h2 className="text-xl my-3">Hi, I am</h2>
         <h1 className="uppercase text-5xl my-4 ">Shahadat Hossain</h1>
