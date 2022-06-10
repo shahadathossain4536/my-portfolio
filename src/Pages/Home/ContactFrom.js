@@ -24,7 +24,7 @@ const ContactFrom = () => {
       );
   };
   return (
-    <div className="my-20">
+    <div className="my-20" id="contact-from">
       <h2 className="text-center text-5xl mb-10">Get in Touch</h2>
 
       <div className="mt-12">

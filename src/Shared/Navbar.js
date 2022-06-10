@@ -1,25 +1,32 @@
 import React, { Children } from "react";
+import { Link } from "react-router-dom";
 import resume from "../assets/shahadat-hossain-resume-fornt-end-web-developer.pdf";
 
 const Navbar = ({ children }) => {
   const menuItems = (
     <>
       <li>
-        <a className="rounded-lg">Home</a>
+        <Link className="rounded-lg" to="/home">
+          Home
+        </Link>
       </li>
       <li>
-        <a className="rounded-lg" href="#about">
+        <Link className="rounded-lg" to="about">
           About
-        </a>
+        </Link>
       </li>
       <li>
         <a className="rounded-lg">Portfolio</a>
       </li>
       <li>
-        <a className="rounded-lg">Blog</a>
+        <Link to="/blogs" className="rounded-lg">
+          Blog
+        </Link>
       </li>
       <li>
-        <a className="rounded-lg">Contact</a>
+        <Link to="home#contact-from" className="rounded-lg">
+          Contact
+        </Link>
       </li>
       <li>
         <a href={resume} download className="btn btn-outline rounded-xl">
@@ -29,12 +36,14 @@ const Navbar = ({ children }) => {
     </>
   );
   return (
-    <div class="drawer drawer-end">
+    <nav class="sticky top-0 z-30  drawer drawer-end">
       <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
       <div class="drawer-content flex flex-col">
         {/* <!-- Navbar --> */}
         <div class="w-full navbar">
-          <div class="flex-1 px-2 mx-2 ">Shahadat Hossain</div>
+          <div class="flex-1 px-2 mx-2 text-lg text-gray-500 ">
+            Shahadat Hossain
+          </div>
           <div class="flex-none hidden lg:block">
             <ul class="menu menu-horizontal">
               {/* <!-- Navbar menu content here --> */}
@@ -69,7 +78,7 @@ const Navbar = ({ children }) => {
           {menuItems}
         </ul>
       </div>
-    </div>
+    </nav>
   );
 };
 

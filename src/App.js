@@ -8,6 +8,8 @@ import About from "./Pages/Home/About";
 import Projects from "./Pages/Home/Projects";
 import ContactFrom from "./Pages/Home/ContactFrom";
 import Footer from "./Pages/Home/Footer";
+import { Route, Routes } from "react-router-dom";
+import Blogs from "./Pages/Blogs/Blogs";
 
 function App() {
   useEffect(() => {
@@ -16,11 +18,11 @@ function App() {
   return (
     <div className="mx-5">
       <Navbar>
-        <Home></Home>
-        <About></About>
-        <Projects></Projects>
-        <ContactFrom></ContactFrom>
-        <Footer></Footer>
+        <Routes>
+          <Route path="" element={<Home></Home>}></Route>
+          <Route path="/home" element={<Home></Home>}></Route>
+          <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+        </Routes>
       </Navbar>
     </div>
   );

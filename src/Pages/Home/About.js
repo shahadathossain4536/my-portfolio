@@ -16,9 +16,11 @@ const About = () => {
           </p>
 
           <div className="my-5">
-            <button className="btn btn-accent mr-3" id="">
-              Hire Me
-            </button>
+            <a href="#contact-from">
+              <button className="btn btn-accent text-white mr-3" id="">
+                Hire Me
+              </button>
+            </a>
             <button className="btn  btn-outline mt-5">Download Resume</button>
           </div>
         </div>
