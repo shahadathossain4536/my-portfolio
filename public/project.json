@@ -4,6 +4,9 @@
       "name": "Crypto Computer",
       "description": "A full-stack responsive website.User buy any products with online paying system their credit card, canceled any order products, also make a review from the dashboard. Admin can add/delete product, make another admin and manage orders.",
       "img": "https://i.ibb.co/hd0HcgJ/Crypto-computer.png",
+      "homeImg": "https://i.ibb.co/hd0HcgJ/Crypto-computer.png",
+      "userImg": "https://i.ibb.co/hd0HcgJ/Crypto-computer.png",
+      "reviewImg": "https://i.ibb.co/hd0HcgJ/Crypto-computer.png",
       "liveLink": "https://manufacturer-website-client.web.app",
       "serverLink": "https://github.com/shahadathossain4536/manufacturer-website-server-side",
       "clientLink": "https://github.com/shahadathossain4536/manufacturer-website-client-side"
