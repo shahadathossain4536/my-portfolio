@@ -113,7 +113,7 @@ const Projects = () => {
                   <button className="btn btn-xs">Client GitHub</button>
                 </a>
               </div>
-              <Link to="/cryptoComputer">
+              <Link to="/theFinancial360">
                 <button className="btn btn-xs w-full max-w-xs">Explore</button>
               </Link>
             </div>
